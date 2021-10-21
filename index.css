@@ -27,10 +27,6 @@ h4 {
     font-family: Bahnschrift;
 }
 
-.col-4 {
-    text-align: center;
-}
-
 .fa-github-square {
     font-size: 3em; color:  rgb(71, 58, 93);
     float: right;
@@ -56,6 +52,10 @@ h4 {
     margin: 20px;
 }
 
+.row {
+    margin: 20px;
+}
+
 legend {
     color: rgb(71, 58, 93);
     font-family: Tahoma, Verdana, Segoe, sans-serif; 
@@ -65,7 +65,7 @@ legend {
     font-weight: 700; 
     line-height: 15.4px;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 p{
