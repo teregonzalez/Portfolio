@@ -1,12 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 header {
-    padding: 40px;
+    padding: 10px;
     background-color: rgba(250,181,183,1) 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -17,14 +16,9 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
+.logo {
     color: rgb(71, 58, 93);
-    font-family: Bahnschrift;
-}
-
-h4 {
-    color: rgb(71, 58, 93);
-    font-family: Bahnschrift;
+    max-width: 400px;
 }
 
 .fa-github-square {
@@ -37,9 +31,21 @@ h4 {
     float: right;
     margin: 2px 1em 0 auto;
 }
+
+.fa-github-square:hover {
+    color: rgb(183, 61, 100);
+}
+
+.fa-linkedin:hover {
+    color: rgb(183, 61, 100);
+}
+
 .nav-link{
     color: rgb(71, 58, 93);
     font-family: Bahnschrift;
+    display: table;
+    float: none !important;
+    margin: auto !important;
 }
 
 .col-6 {
@@ -52,8 +58,19 @@ h4 {
     margin: 20px;
 }
 
+.col-4 {
+    max-width: 500px;
+    margin: 20px;
+}
+
 .row {
     margin: 20px;
+    vertical-align: center;
+    position: center;
+}
+
+#about {
+    display: flex;
 }
 
 legend {
