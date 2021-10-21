@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 40px;
+    background-color: rgba(250,181,183,1) 50%;
+}
+
+body {
+    background: linear-gradient(347deg, rgba(255,240,255,1) 0%, rgba(226,216,242,1) 48%, rgba(250,181,183,1) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: rgb(71, 58, 93);
+    font-family: Bahnschrift;
+}
+
+h4 {
+    color: rgb(71, 58, 93);
+    font-family: Bahnschrift;
+}
+
+.col-4 {
+    text-align: center;
+}
+
+.fa-github-square {
+    font-size: 3em; color:  rgb(71, 58, 93);
+    float: right;
+    margin: 2px 1em 0 auto;
+}
+.fa-linkedin {
+    font-size: 3em; color:  rgb(71, 58, 93);
+    float: right;
+    margin: 2px 1em 0 auto;
+}
+.nav-link{
+    color: rgb(71, 58, 93);
+    font-family: Bahnschrift;
+}
+
+.col-6 {
+    float: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(252, 239, 242);
+    padding: 4px 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+legend {
+    color: rgb(71, 58, 93);
+    font-family: Tahoma, Verdana, Segoe, sans-serif; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px;
+    text-align: center;
+    margin: 20px;
+}
+
+p{
+    color: rgb(71, 58, 93);
+    font-family: Tahoma, Verdana, Segoe, sans-serif; 
+    font-size: 11px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px;
+    text-align: justify;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px;
+}
+
+li{
+    color: rgb(71, 58, 93);
+    font-family: Tahoma, Verdana, Segoe, sans-serif; 
+    font-size: 11px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px;
+    text-align: justify;
+    max-width: 400px;
+    margin: 10px;
+}
+
+.fa-java {
+    font-size: 6em; 
+    color:  rgb(71, 58, 93);
+    margin: 20px;
+}
